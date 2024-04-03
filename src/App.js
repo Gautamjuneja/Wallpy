@@ -24,7 +24,6 @@ const App = () => {
               <NavLink to="/contact" className='act'>Contact Us</NavLink>
             
             </div>
-
             
             <Routes>
             <Route path='/Rating' element={<Rating/>} />

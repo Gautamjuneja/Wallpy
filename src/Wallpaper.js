@@ -28,7 +28,7 @@ const Wallpaper = () => {
         <nav className='navbar'>
             <div className='btn-group'>
                 <button className='btn-group__item'
-                onClick={() => Item("ims")}>All</button>
+                onClick={() => setMenuData(Menu)}>All</button>
 
                  <button className='btn-group__item' 
                 onClick={() => filterItem("Naruto")}>Naruto</button>
